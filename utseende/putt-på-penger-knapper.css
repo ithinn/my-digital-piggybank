@@ -1,0 +1,62 @@
+/*Slik skal boksen som knappene bor i se ut.
+(La den stå slik med mindre du vet helt sikkert at du vil endre på den
+*/
+#putt-på-penger-knapper {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-top: 10px;
+}
+
+/*KNAPP UTEN BILDE*/
+
+/*Slik vil du at knappen se ut når det ikke er lagt til noen bilder til den*/
+.legg-til-penger-knapp {
+  width: 180px;
+  height: 50px;
+  border-radius: 100px;
+  border: 5px solid black;
+  background-color: white;
+  font-size: 1.5em;
+}
+
+/*Dette vil du at skal skje når du holder musepekeren over knappen*/
+.legg-til-penger-knapp:hover {
+  background-color: lightgrey;
+}
+
+/*KNAPP MED BILDE*/
+
+/*Slik vil du at knappen skal se ut når du har lagt til et bilde. 
+(Det vi egentlig gjør er å fjerne all stylingen til selve knappen, slik at bare bildet vises*/
+.knapp-med-bilde {
+  border: none;
+  background-color: #f9f9f8;
+}
+
+/*Dette vil du skal skje når du holder musepekeren over knappen.*/
+.knapp-med-bilde:hover {
+  background-color: #f9f9f8;
+}
+
+/*BILDENE*/
+
+/*Her bestemmer du høyden og bredden på bildet hvis det er en seddel*/
+.seddel img {
+  width: 180px;
+  height: auto;
+}
+
+/*Her bestemmer du høyden og bredden på bildet hvis det er en mynt*/
+.mynt img {
+  width: 100px;
+  height: auto;
+}
+
+/*Her bestemmer du hva som skal skje med bildene når du holder musepekeren over det*/
+.seddel:hover img {
+  width: 190px;
+}
+.mynt:hover img {
+  width: 110px;
+}

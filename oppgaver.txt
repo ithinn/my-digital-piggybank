@@ -1,6 +1,5 @@
 Innledningsoppgave: Velg den sparegrisen du vil ha, og lim inn svg-koden i innhold.html
 
-
 FUNKSJONALITET
 
 Legg til beløp:
@@ -9,5 +8,6 @@ Legg til beløp:
 STYLING
 * få cursoren til å bli en hånd når den hovrer over knappene
 * endre på farger på tekst og sparegris
+* legg til bilde med mynt/sedler på knappene
 
 
