@@ -1,4 +1,7 @@
-Innledningsoppgave: Velg den sparegrisen du vil ha, og lim inn svg-koden i innhold.html
+Innledningsoppgaver: 
+Velg den sparegrisen du vil ha, og lim inn svg-koden i innhold.html
+(Legg inn feil summer i funksjonene): Sørg for at summen som blir lagt til når du trykker på knappen er den samme som står på knappen
+
 
 FUNKSJONALITET
 

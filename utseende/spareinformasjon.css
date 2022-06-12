@@ -1,0 +1,31 @@
+/*Slik vil du at boksen som rammer inn du-har-spart-seksjonen skal se ut*/
+#spareinformasjon {
+  margin-bottom: 20px;
+}
+
+/*Slik vil du at alle h2-elementer i du-har-spart-seksjonen skal se ut*/
+#spareinformasjon h2 {
+  display: inline;
+}
+
+/*Slik vil du at det elementet som har id "sparesum" skal se ut*/
+#sparesum {
+  font-size: 40px;
+  color: green;
+  font-weight: 600;
+}
+
+/*Her "gjemmer" du boksen som gir beskjed om at sparegrisen er tom. Du kan endre på dette ved å bruke javascript*/
+#full-sparebosse-varsel {
+  display: none;
+  width: 80%;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.42);
+  margin-top: 10px;
+}
+
+#tom-sparebossen-knapp {
+  margin: 0 auto;
+}
