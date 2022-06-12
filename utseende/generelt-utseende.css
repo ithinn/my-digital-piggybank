@@ -1,3 +1,13 @@
+/*
+I denne filen finner du generelle styling-regler HTML-tagger. Hvis du endrer noe her, gjelder det for alle tagger på hele siden.
+
+Hvis du bare vil endre på en bestemt knapp, eller en bestemt overskrift, kan du gjøre det ved å gi klassen en klasse eller en id.
+
+I de andre css-filene i mappa ligger det eksempler der vi bruker id eller klasse for å skrive regler for noen bestemte elementer.
+
+De reglene trumfer reglene i denne filen.
+*/
+
 html {
   font-size: 16px;
   box-sizing: border-box;
@@ -32,4 +42,5 @@ button {
   border-radius: 100px;
   border: 5px solid black;
   background-color: white;
+  font-size: 1.5em;
 }

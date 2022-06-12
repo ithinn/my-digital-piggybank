@@ -1,3 +1,19 @@
+/*
+  I denne filen finner du stylingregler for den seksjonen som informerer om hvor mye du har spart, og om sparebøssen er full.
+
+  En stylingregel begynner enten med "." eller "#"
+  
+  Hvis regelen begynner med "." er det en klasse. 
+  ◻ En klasse kan brukes på mange HTML-elementer.
+  ◻ Hvis du har flere elementer du vil skal se like ut, for eksempel fire knapper, er det lurt å bruke klasser
+
+  Hvis regelen begynner mer "#" er det en id.
+  ◻ En id skal være unik for ett bestemt HTML-element.
+  ◻ Regler som begynner på "#" gjelder altså bare for ett element. 
+
+  Se på HTML-taggene i innhold.html - så ser du hvor de ulike klassene og id-ene er brukt.
+*/
+
 /*Slik vil du at boksen som rammer inn du-har-spart-seksjonen skal se ut*/
 #spareinformasjon {
   margin-bottom: 20px;
@@ -15,7 +31,8 @@
   font-weight: 600;
 }
 
-/*Her "gjemmer" du boksen som gir beskjed om at sparegrisen er tom. Du kan endre på dette ved å bruke javascript*/
+/*Her "gjemmer" du boksen som gir beskjed om at sparegrisen er tom, ved hjelp av "display". Du kan endre på dette ved å bruke javascript. 
+I tillegg sier du hvordan du vil at boksen skal se ut når den vises */
 #full-sparebosse-varsel {
   display: none;
   width: 80%;
@@ -26,6 +43,13 @@
   margin-top: 10px;
 }
 
+/*Slik vil du at knappen som tømmer sparebøssen skal se ut*/
 #tom-sparebossen-knapp {
   margin: 0 auto;
+  width: 180px;
+  height: 50px;
+  border-radius: 100px;
+  border: 5px solid black;
+  background-color: white;
+  font-size: 1.5em;
 }

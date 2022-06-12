@@ -1,5 +1,19 @@
+<!--
+  I denne filen finner du "skjelettet" til nettsiden din - altså det siden skal inneholde. 
+
+  Skjelettet er bygd opp av HTML-elementer: 
+    ◻ Et HTML-element sier noe om hva slags type innhold du vil ha et sted.
+    ◻ Elementet må åpnes med en "<", og lukkes med en "</>"
+    ◻ Eksempel på en overskrift: <h1>Dette er en overskrift</h1>
+    ◻ Eksempel på en knapp: <button>Klikk her</button
+    ◻ Les mer om ulike HTML-elementer her: https://www.learn-html.org/en/Basic_Elements 
+  
+  Som du ser har du et hode (<head>) og en kropp (<body>).
+  Inne i <body> legger du til innholdet du vil ha med. 
+-->
 <!DOCTYPE html>
 <html lang="no">
+  <!--Denne delen trenger du ikke å tenke på nå, hopp rett ned til der det står <body>-->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,9 +24,12 @@
     <script src="./funksjonalitet/putt-pa-penger.js" defer></script>
     <title>Min digitale sparegris</title>
   </head>
+
   <body>
+    <!--OVERSKRIFT-->
     <h1>Min digitale sparegris</h1>
 
+    <!--DEL 1: informasjon om hvor mye du har spart (og at sparebøssa er full, hvis du vil vise det)-->
     <section id="spareinformasjon">
       <h2>Du har spart</h2>
       <h2 id="sparesum">0 kroner</h2>
@@ -24,8 +41,9 @@
       </article>
     </section>
 
+    <!--DEL 2: bilde av selve sparebøssa-->
     <section id="bilde-av-sparebosse">
-      <!--Lim inn koden til den sparegrisen du vil ha her-->
+      <!--Lim inn koden til den sparegrisen du vil ha her. Du finner koden i bilder-mappa.-->
       <svg
         data-name="Sparegris"
         xmlns="http://www.w3.org/2000/svg"
@@ -70,6 +88,7 @@
       </svg>
     </section>
 
+    <!--DEL 3: knapper som putter penger på sparebøssa-->
     <section id="putt-på-penger-knapper">
       <button
         class="legg-til-penger-knapp knapp-med-bilde mynt"

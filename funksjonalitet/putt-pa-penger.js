@@ -27,42 +27,26 @@ de akkurat det samme.
 -------------------------------------------------------------------------------------*/
 
 const puttPå1Kr = () => {
-  if (erSparegrisenFull(1)) {
-    fullSparebosseVarsel.style.display = 'block';
-  } else {
-    //⬇ Vi sier at sparesum skal være den summen som er der fra før, pluss 1.
-    sparesum = sparesum + 1;
+  //⬇ Vi sier at sparesum skal være den summen som er der fra før, pluss 1.
+  sparesum = sparesum + 1;
 
-    //⬇ Så oppdaterer vi teksten i html-elementet som viser sparesum med den nye sparesummen.
-    tekstMedSparesum.innerHTML = `${sparesum} kroner`;
-  }
+  //⬇ Så oppdaterer vi teksten i html-elementet som viser sparesum med den nye sparesummen.
+  tekstMedSparesum.innerHTML = `${sparesum} kroner`;
 };
 
 const puttPå5Kr = () => {
-  if (erSparegrisenFull(5)) {
-    fullSparebosseVarsel.style.display = 'block';
-  } else {
-    sparesum = sparesum + 5;
-    tekstMedSparesum.innerHTML = `${sparesum} kroner`;
-  }
+  sparesum = sparesum + 5;
+  tekstMedSparesum.innerHTML = `${sparesum} kroner`;
 };
 
 const puttPå10Kr = () => {
-  if (erSparegrisenFull(10)) {
-    fullSparebosseVarsel.style.display = 'block';
-  } else {
-    sparesum = sparesum + 10;
-    tekstMedSparesum.innerHTML = `${sparesum} kroner`;
-  }
+  sparesum = sparesum + 10;
+  tekstMedSparesum.innerHTML = `${sparesum} kroner`;
 };
 
 const puttPå15Kr = () => {
-  if (erSparegrisenFull(15)) {
-    fullSparebosseVarsel.style.display = 'block';
-  } else {
-    sparesum = sparesum + 15;
-    tekstMedSparesum.innerHTML = `${sparesum} kroner`;
-  }
+  sparesum = sparesum + 15;
+  tekstMedSparesum.innerHTML = `${sparesum} kroner`;
 };
 
 /*------------------------------------------------------------------------------------------
