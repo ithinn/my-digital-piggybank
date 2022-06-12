@@ -1,0 +1,8 @@
+FUNKSJONALITET
+
+Legg til beløp:
+* endre beløpet som legges til når du klikker på de ulike knappene
+
+STYLING
+* få cursoren til å bli en hånd når den hovrer over knappene
+
