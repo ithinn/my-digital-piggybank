@@ -42,8 +42,8 @@ const puttPå10Kr = () => {
   tekstMedSparesum.innerHTML = `${sparesum} kroner`;
 };
 
-const puttPå20Kr = () => {
-  sparesum = sparesum + 20;
+const puttPå15Kr = () => {
+  sparesum = sparesum + 15;
   tekstMedSparesum.innerHTML = `${sparesum} kroner`;
 };
 
@@ -56,4 +56,4 @@ Det vi egentlig sier er: "Hvis knapp1 blir klikket på skal du sette i gang putt
 knapp1.addEventListener('click', puttPå1Kr);
 knapp2.addEventListener('click', puttPå5Kr);
 knapp3.addEventListener('click', puttPå10Kr);
-knapp4.addEventListener('click', puttPå20Kr);
+knapp4.addEventListener('click', puttPå15Kr);
