@@ -1,5 +1,5 @@
 /*
-I denne filen finner du generelle styling-regler HTML-tagger. Hvis du endrer noe her, gjelder det for alle tagger på hele siden.
+I denne filen finner du generelle styling-regler for HTML-tagger. Hvis du endrer noe her, gjelder det for alle tagger på hele siden.
 
 Hvis du bare vil endre på en bestemt knapp, eller en bestemt overskrift, kan du gjøre det ved å gi klassen en klasse eller en id.
 
@@ -15,7 +15,7 @@ html {
 
 body {
   background-color: #f9f9f8;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   height: 100%;
   display: flex;
   flex-direction: column;

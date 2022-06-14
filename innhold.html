@@ -2,15 +2,17 @@
   I denne filen finner du "skjelettet" til nettsiden din - altså det siden skal inneholde. 
 
   Skjelettet er bygd opp av HTML-elementer: 
-    ◻ Et HTML-element sier noe om hva slags type innhold du vil ha et sted.
-    ◻ Elementet må åpnes med en "<", og lukkes med en "</>"
+    ◻ Et HTML-element sier noe om hva slags type innhold du vil ha.
+    ◻ Elementet må åpnes med en "<>", og lukkes med en "</>"
     ◻ Eksempel på en overskrift: <h1>Dette er en overskrift</h1>
-    ◻ Eksempel på en knapp: <button>Klikk her</button
+    ◻ Eksempel på en knapp: <button>Klikk her</button>
     ◻ Les mer om ulike HTML-elementer her: https://www.learn-html.org/en/Basic_Elements 
   
-  Som du ser har du et hode (<head>) og en kropp (<body>).
-  Inne i <body> legger du til innholdet du vil ha med. 
+  Som du ser har du et hode (<head>) og en kropp (<body>). 
+    Hodet inneholder metainformasjon og koblinger til javascript-koden og stylingen din. Du trenger ikke å tenke på det nå.
+    Kroppen inneholder selve innholdet du vil ha med på siden. 
 -->
+
 <!DOCTYPE html>
 <html lang="no">
   <!--Denne delen trenger du ikke å tenke på nå, hopp rett ned til der det står <body>-->
@@ -18,9 +20,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./utseende/skrifttyper.css" />
     <link rel="stylesheet" href="./utseende/generelt-utseende.css" />
     <link rel="stylesheet" href="./utseende/putt-pa-penger-knapper.css" />
     <link rel="stylesheet" href="./utseende/spareinformasjon.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    />
     <script src="./funksjonalitet/putt-pa-penger.js" defer></script>
     <title>Min digitale sparegris</title>
   </head>
@@ -37,7 +45,7 @@
         <p id="full-sparebosse-tekst">
           Det er ikke plass til så mye mer penger i sparebøssen
         </p>
-        <button id="tom-sparebossen-knapp">Tøm sparebossen</button>
+        <button id="tom-sparebossen-knapp">Tøm sparebøssen</button>
       </article>
     </section>
 

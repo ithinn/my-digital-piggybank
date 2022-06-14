@@ -1,3 +1,19 @@
+/*
+  I denne filen finner du stylingregler for knappene som brukes til å putte penger på sparebøssen
+
+  En stylingregel begynner enten med "." eller "#"
+  
+  Hvis regelen begynner med "." er det en klasse. 
+  ◻ En klasse kan brukes på mange HTML-elementer.
+  ◻ Hvis du har flere elementer du vil skal se like ut, for eksempel fire knapper, er det lurt å bruke klasser
+
+  Hvis regelen begynner mer "#" er det en id.
+  ◻ En id skal være unik for ett bestemt HTML-element.
+  ◻ Regler som begynner på "#" gjelder altså bare for ett element. 
+
+  Se på HTML-taggene i innhold.html - så ser du hvor de ulike klassene og id-ene er brukt.
+*/
+
 /*Slik skal boksen som knappene bor i se ut.
 (La den stå slik med mindre du vet helt sikkert at du vil endre på den
 */
