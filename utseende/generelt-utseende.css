@@ -11,29 +11,32 @@ De reglene trumfer reglene i denne filen.
 html {
   font-size: 16px;
   box-sizing: border-box;
+  height: 98vh;
+  width: 99vw;
 }
 
 body {
-  background-color: #f9f9f8;
   font-family: 'Roboto', sans-serif;
-  height: 100%;
+  background-color: #f9f9f8;
+  height: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
-  width: 100%;
-  max-width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
 }
 
 h1 {
-  color: blueviolet;
+  color: black;
   font-size: 64px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  text-align: center;
 }
 
 h2 {
   font-size: 32px;
+  color: black;
+  text-align: center;
 }
 
 button {
@@ -42,5 +45,20 @@ button {
   border-radius: 100px;
   border: 5px solid black;
   background-color: white;
-  font-size: 1.5em;
+  font-size: 26px;
+  color: black;
 }
+
+#bilde-av-sparebosse {
+  width: 60%;
+  max-height: 50vh;
+  margin-bottom: 20px;
+}
+/*
+#bilde-av-sparebosse {
+  border: 2px solid red;
+  width: 60%;
+  max-width: 800px;
+  max-height: 50vh;
+}
+*/

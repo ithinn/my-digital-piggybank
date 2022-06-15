@@ -9,10 +9,10 @@ Hint:
 * HTML-elementer som begynner på "h" er alltid overskrifter. 
 
 Nyttige begreper:
-<h1> = "heading 1" - hovedoverskriften på en side.
-<h2> = "heading 2" - en underoverskrift
-<h3> = "heading 3" - en litt mindre underoverskrift. (Og sånn kan du fortsette helt til <h6>).
-<p> = "paragraph" - et avsnitt med vanlig tekst - altså det som kommer etter en overskrift.
+<h1>     = "heading 1" - hovedoverskriften på en side.
+<h2>     = "heading 2" - en underoverskrift
+<h3>     = "heading 3" - en litt mindre underoverskrift. (Og sånn kan du fortsette helt til <h6>).
+<p>      = "paragraph" - et avsnitt med vanlig tekst - altså det som kommer etter en overskrift.
 <button> = en knapp som brukeren kan trykke på. Du skriver teksten som skal stå på knappen mellom HTML-tagene: <button>[tekst]</button>
 
 Ressurser:

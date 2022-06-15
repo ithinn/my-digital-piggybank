@@ -22,6 +22,7 @@
 /*Slik vil du at alle h2-elementer i du-har-spart-seksjonen skal se ut*/
 #spareinformasjon h2 {
   display: inline;
+  text-align: center;
 }
 
 /*Slik vil du at det elementet som har id "sparesum" skal se ut*/

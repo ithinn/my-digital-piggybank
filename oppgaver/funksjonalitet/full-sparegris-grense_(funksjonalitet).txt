@@ -1,7 +1,8 @@
 BESTEM HVOR MYE PENGER DET ER PLASS TIL I SPAREBØSSEN
 
 Akkurat nå har vi sagt at sparebøssen er full når det er 100 kroner i den. 
-Endre dette til det DU vil skal være maksbeløpet i sparebøssen din, og sjekk at det virker ved å legge på penger helt til du når maksbeløpet. (Hvis det virker skal det dukke opp en beskjed om at sparegrisen er full).
+Endre dette til det DU vil skal være maksbeløpet i sparebøssen din. Sjekk at det virker ved å legge på penger helt til du når maksbeløpet. 
+(Hvis det virker skal det dukke opp en beskjed om at sparebøssen er full).
 
 Hint:
 * Denne endringen må gjøres i putt-på-penger.js-fila.
