@@ -1,4 +1,4 @@
-//HVA SKAL SKJE HVIS SPAREGRISEN ER FULL.
+//HVA SKAL SKJE HVIS SPAREBØSSEN ER FULL?
 
 /*------------------------------------------------------------------------------------
 Først lager vi en kobling til noen av HTML-elementene i hva-skal-nettsiden-inneholde.html, slik at vi kan
@@ -10,19 +10,19 @@ så skjønner du hvilket html-element det er snakk om.
 
 const bildeAvPenger = document.getElementById('penger');
 const fullSparebosseVarsel = document.getElementById('full-sparebosse-varsel');
-const tomSparegrisenKnapp = document.getElementById('tom-sparebossen-knapp');
+const tomSparebossenKnapp = document.getElementById('tom-sparebossen-knapp');
 
 /*---------------------------------------------------------------------------------------------------------------
 I putt-på-penger.js har du sagt hvor mye som kan puttes på sparebøssen før den blir full, gjennom "fullSparebosse".
-Under ser du en funksjon som sjekker om sparegrisen er full.
+Under ser du en funksjon som sjekker om sparebossen er full.
 
-Hvis summen du har spart er større enn fullSparebosse-summen, returnerer funksjonen "true" ➡ sparegrisen ER full. 
-Hvis ikke returnerer den "false" ➡ sparegrisen er ikke full
+Hvis summen du har spart er større enn fullSparebosse-summen, returnerer funksjonen "true" ➡ sparebossen ER full. 
+Hvis ikke returnerer den "false" ➡ sparebossen er ikke full
 
 Du kan bruke denne funksjonen hvis du vil at det skal skje noe annet når sparebossen er full
 enn det som skjer når den ikke er full. 
 
-Hint: Du kan bruke funksjonen INNI en annen funksjon. Da kaller du den slik: erSparegrisenFull();
+Hint: Du kan bruke funksjonen INNI en annen funksjon. Da kaller du den slik: erSparebossenFull();
 -----------------------------------------------------------------------------------------------------------------*/
 
 function erSparebossenFull() {
@@ -44,7 +44,7 @@ function erSparebossenFull() {
 Du kan også sjekke om sparebøssen BLIR full hvis du putter på et visst antall penger. 
 
 Hvis beløpet som skal puttes på + beløpet som ligger der fra før er mer enn fullSparebosse-summen, 
-returnerer funksjonen "true" ➡ sparegrisen ER full. Hvis ikke returnerer den "false" ➡ sparegrisen er ikke full
+returnerer funksjonen "true" ➡ sparebossen ER full. Hvis ikke returnerer den "false" ➡ sparebossen er ikke full
 
 Du kan bruke denne funksjonen hvis du vil at det skal skje noe annet når sparebossen blir full
 enn det som skjer når den ikke blir full. 
@@ -70,12 +70,12 @@ function blirSparebossenFull(belopSomSkalPuttesPa) {
 }
 
 /*---------------------------------------------------------------------------------------------------------------
-Kanskje du vil at det skal gå an å tømme sparegrisen? Da kan du bruke denne funksjonen
+Kanskje du vil at det skal gå an å tømme sparebossen? Da kan du bruke denne funksjonen
 -----------------------------------------------------------------------------------------------------------------*/
 //Lag en kobling til HTML-elementet der tøm-sparebøsse-knappen ligger,
 //og til selve knappen.
 
-function tomSparegrisen() {
+function tomSparebossen() {
   //Nullstill sparesummen
   sparesum = 0;
 
@@ -87,10 +87,10 @@ function tomSparegrisen() {
 }
 
 //Lag en lytter
-tomSparegrisenKnapp.addEventListener('click', tomSparegrisen);
+tomSparebossenKnapp.addEventListener('click', tomSparebossen);
 
 /*---------------------------------------------------------------------------------------------------------------
-Du vil kanskje vise et varsel om at sparegrisen er full, og en knapp som gjør at brukeren kan tømme den. 
+Du vil kanskje vise et varsel om at sparebøssen er full, og en knapp som gjør at brukeren kan tømme den. 
 -----------------------------------------------------------------------------------------------------------------*/
 
 function visFullSparebosseVarsel() {
@@ -98,11 +98,11 @@ function visFullSparebosseVarsel() {
 }
 
 /*---------------------------------------------------------------------------------------------------------------
-Kanskje du vil vise at sparebøssen er full ved at det tyter ut penger av den. Da kan du skrive en funksjon for det.
-Denne funksjonen bruker en annen funksjon for å undersøke om sparegrisen er full. Vi vet at 
+Kanskje du vil vise at sparebøssen er full ved at det tyter ut penger av den. Da kan du bruke en funksjon til det.
 -----------------------------------------------------------------------------------------------------------------*/
 
 function visPenger() {
+  //sett inn bildekoden du vil ha i HTML-elementet
   bildeAvPenger.innerHTML = bildeAvPengerSparegris;
 }
 

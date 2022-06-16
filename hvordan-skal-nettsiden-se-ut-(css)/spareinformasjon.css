@@ -32,7 +32,7 @@
   font-weight: 600;
 }
 
-/*Her "gjemmer" du boksen som gir beskjed om at sparegrisen er tom, ved hjelp av "display". Du kan endre på dette ved å bruke javascript. 
+/*Her "gjemmer" du boksen som gir beskjed om at sparebøssen er tom, ved hjelp av "display". Du kan endre på dette ved å bruke javascript. 
 I tillegg sier du hvordan du vil at boksen skal se ut når den vises */
 #full-sparebosse-varsel {
   display: none;

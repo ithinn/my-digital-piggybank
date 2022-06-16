@@ -1,4 +1,4 @@
-//PUTTE PÅ PENGER PÅ SPAREGRISEN
+//PUTTE PÅ PENGER PÅ SPAREBØSSEN
 
 /*------------------------------------------------------------------------------------
 Først lager vi en kobling til noen av HTML-elementene i hva-skal-nettsiden-inneholde.html, slik at vi kan

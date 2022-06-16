@@ -6,7 +6,7 @@ Nå skal du legge til litt ekstra kode til sparebøssen din, slik at det stikker
 Hint:
 * Koden skal legges til <svg>-HTML-elementet i hva-skal-nettsiden-inneholde.html, men du kan ikke legge den til der.  
 * Siden den ekstra koden ikke skal være der hele tiden, men dukke opp når sparebøssen er full, må du bruke javascript for å legge den til. 
-* Vi har skrevet en funksjon du kan bruke, og den ligger i full-sparegris.js. Den funksjonen må du bruke (kalle) et annet sted i koden. Prøv å finne ut hvor.
+* Vi har skrevet en funksjon du kan bruke, og den ligger i full-sparebosse.js. Den funksjonen må du bruke (kalle) et annet sted i koden. Prøv å finne ut hvor.
 * I samme fil ligger koden som inneholder bildet av pengene som skal stikke opp. Den er lagret i en variabel, og det fins en variabel for hver type sparebøsse.
   Inne i funksjonen må du sette inn den variabelen som passer med DIN sparebøsse.
 

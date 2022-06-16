@@ -1,4 +1,4 @@
-VELG EN SPAREGRIS OG SETT DEN INN I KODEN 
+VELG EN SPAREBØSSE OG SETT DEN INN I KODEN 
 
 Hvis du ser på nettsiden din nå inneholder den en overskrift, en tekst som sier hvor mye du har spart, og noen knapper en kan trykke på for å putte penger på sparebøssen. 
 Men du mangler en sparebøsse. Du må begynne med å finne koden for den sparebøssa DU vil bruke, og lime den inn på riktig sted i hva-skal-nettsiden-inneholde.html.

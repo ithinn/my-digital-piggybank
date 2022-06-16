@@ -1,21 +1,21 @@
-VARSLE OM AT SPAREGRISEN BLIR FULL HVIS DU LEGGER PÅ DETTE BELØPET
+VARSLE OM AT SPAREBØSSEN BLIR FULL HVIS DU LEGGER PÅ DETTE BELØPET
 (Dette er ikke blant de enkleste oppgavene, så det kan være lurt å begynne med en av de andre hvis du ikke har kodet så mye før. 
-Du må løse tøm-sparegrisen-oppgaven før du begynner på denne.)
+Du må løse tøm-sparebøssen-oppgaven før du begynner på denne.)
 
 Brukeren får nå beskjed om at sparebossen ER full hvis sparesummen er større enn fullSparebosse-summen.
 Nå skal du endre dette varselet. Brukeren skal få beskjed om at sparebossen BLIR full hvis de legger på den summen de forsøker å legge på. 
-I beskjeden skal det også stå hvor mye det er plass til i sparegrisen før den blir full. 
+I beskjeden skal det også stå hvor mye det er plass til i sparebøssen før den blir full. 
 
 Beskjeden kan for eksempel se slik ut:
 
-"Du forsøker å legge på 50 kroner, men det er bare plass til 35 kroner til i sparegrisen."
+"Du forsøker å legge på 50 kroner, men det er bare plass til 35 kroner til i sparebøssen."
 
 Etter beskjeden skal det ligge en knapp som fjerner beskjeden når den blir klikket på. 
 
 Hint:
-* Vi har skrevet en funksjon som sjekker om sparegrisen BLIR full hvis brukeren legger på et visst beløp. Den ligger i full-sparegris.js.
+* Vi har skrevet en funksjon som sjekker om sparebøssen BLIR full hvis brukeren legger på et visst beløp. Den ligger i full-spabøssen.js.
 
-* Denne funksjonen returnerer enten "true" eller "false"; enten blir sparegrisen full, eller så blir den ikke det. 
+* Denne funksjonen returnerer enten "true" eller "false"; enten blir sparebøssen full, eller så blir den ikke det. 
   Bruk den til å si hva du vil skal skje hvis den er true, og hva du vil skal skje hvis den er false. (tips: bruk en if-setning).'
 
 * Du må skrive en ny funksjon som:
