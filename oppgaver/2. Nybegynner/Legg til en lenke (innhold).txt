@@ -3,7 +3,7 @@ LEGG TIL EN LENKE
 Siden du jobber for Storebrand nå, er det fint om siden din kan lenke til vår hjemmeside. 
 
 Hint:
-* Du legger til en lenke i innhold.html-fila.
+* Du legger til en lenke i hva-skal-nettsiden-inneholde.html-fila.
 * URL-en (adressen) til Storebrands hjemmeside er https://www.storebrand.no
 * Lenken bør også ha en tekst som forklarer hvor brukeren havner hvis du klikker på den.
 
