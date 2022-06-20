@@ -4,7 +4,7 @@ Det er du som bestemmer hva som skal stå i overskrifter og knapper på nettside
 Vil du legge til en forklarende tekst? Vil du ta bort noe? Gjør det, bare gjør det!
 
 Hint: 
-* Du endrer, sletter eller legger til ny tekst i hva-skal-nettsiden-inneholde.html-fila.
+* Du endrer, sletter eller legger til ny tekst i index.html-fila.
 * Tekster ligger inni HTML-elementer som er laget spesielt for tekst. 
 * HTML-elementer som begynner på "h" er alltid overskrifter. 
 

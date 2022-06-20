@@ -7,7 +7,7 @@ Hint:
 * Du velger hvilken skrifttype elementene skal ha i css-filene; de som slutter med .css og ligger i utseende-mappa.
 * Alle tekster kan være forskjellige hvis du vil det - du trenger ikke å bruke samme skrifttype overalt.
 * Du kan velge nye skrifttyper på Google fonts. Velg en skrifttype du liker og klikk "Select this style". 
-  Kopier koden som dukker opp som begynner med <link>. Lim koden inn i hva-skal-nettsiden-inneholde.html-fila, inne i <head>-elementet. 
+  Kopier koden som dukker opp som begynner med <link>. Lim koden inn i index.html-fila, inne i <head>-elementet. 
 
 Nyttige begreper:
 css-fil     = en fil som definerer hvordan innholdet på nettsiden din skal se ut.

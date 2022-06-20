@@ -1,10 +1,10 @@
 //HVA SKAL SKJE HVIS SPAREBØSSEN ER FULL?
 
 /*------------------------------------------------------------------------------------
-Først lager vi en kobling til noen av HTML-elementene i hva-skal-nettsiden-inneholde.html, slik at vi kan
+Først lager vi en kobling til noen av HTML-elementene i index.html, slik at vi kan
 bruke dem i koden.
 
-Se på id-en som står inni getElementById()-parentesen, og finn den samme id-en i hva-skal-nettsiden-inneholde.html-fila, 
+Se på id-en som står inni getElementById()-parentesen, og finn den samme id-en i index.html-fila, 
 så skjønner du hvilket html-element det er snakk om.
 -----------------------------------⬇--------------------------------------------------*/
 
